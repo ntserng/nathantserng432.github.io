@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nathan Tserng - Accessible Computing Web Page Bio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <div class="card">
+      <section class="content">
+        <h1 class="name-heading">
+          Nathan Tserng
+          <img
+            src="images/monkeyimage.webp"
+            alt=""
+            aria-hidden="true"
+            class="name-icon">
+        </h1>
+
+
+        <h2>About Me</h2>
+        <p>
+          <strong>Howdy!</strong> My name is Nathan Tserng and I’m a senior at
+          <a href="https://www.tamu.edu">Texas A&amp;M University</a>
+          pursuing a bachelor’s degree in computer science and a minor in statistics. I am interested in
+          pursuing a career as a software engineer post-grad and am currently
+          looking for full-time software engineering opportunities after
+          <em>May 2026</em>.
+        </p>
+
+        <p>
+          In the field of computer science, I am mainly interested in software, AI, and mobile devlopement.
+          I love being able to create new software and using my creative mind to address problems that people may have.
+          In the past, I have interned as a software engineer intern at <em>USAA</em>, where I got to work on their mobile authentication
+          and security team.
+        </p>
+
+        <p>
+          Outside of technology, I enjoy playing sports, especially pickleball
+          and spikeball. I also enjoy spending time with my friends and eating lots of good food.
+        </p>
+
+        <h3>Accessibility Interests</h3>
+        <ul>
+          <li>Designing interfaces to help people who have ADHD or another learning disability</li>
+          <li>Reducing cognitive overload in software systems</li>
+          <li>Creating accessible software that puts the needs of the user first</li>
+        </ul>
+
+        <h3>Connect With Me</h3>
+        <form action="mailto:ntserng@tamu.edu" method="post" enctype="text/plain">
+          <fieldset>
+            <legend>Send me a message</legend>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+          </fieldset>
+        </form>
+
+        <p class="bio-link">
+          View all class bios on the
+          <a href="https://docs.google.com/document/d/10nTEkUx4IVWT_oC9CfM5BCgIWGQVcWJRhelf6fSZpuw/edit?usp=sharing">Web Page Bio Links page</a>.
+        </p>
+      </section>
+
+      <aside class="profile-image">
+        <img
+          src="images/IMG_5309_Original.jpg"
+          alt="Photo of Nathan Tserng smiling at the camera">
+      </aside>
+    </div>
+  </main>
+</body>
+</html>
+
